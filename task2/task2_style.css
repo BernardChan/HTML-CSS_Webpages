@@ -1,0 +1,43 @@
+body {
+    margin: 0px auto;
+    width: 420px;
+    height: 699px;
+}
+line {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 35px;
+    height: 699px;
+}
+.container {
+    display: flex;
+}
+#first {
+    background-color: rgb(2, 28, 45);
+}
+#second {
+    background-color: rgb(0, 38, 63);
+}
+box {
+    display: flex;
+    width: 33px;
+    height: 33px;
+    margin: 1px;    
+}
+#red {
+    background-color: rgb(233,70,89);
+}
+#purple {
+    background-color: rgb(174,129,255);
+}
+.space {
+    width: 35px;
+    height: 245px;
+}
+triangle {
+    width: 0;
+    height: 0;
+    border-top: 10px solid white;
+    border-right: 10px solid transparent;      
+    margin: 2px;
+}

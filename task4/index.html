@@ -1,1 +1,62 @@
-<p>Hello world</p>
+<!DOCTYPE html>
+<style>
+    table, tr,td {
+        border: 1px solid black;
+    }
+</style>
+<html>
+<body>
+<form>
+    <table>
+        <tr>
+            <td> Street Name </td>
+            <td> <input type="text" id="stname" name="stname"> </td>
+        </tr>
+        <tr>
+            <td> Suburb </td>
+            <td> <input type="text" id="suburb" name="suburb"> </td>
+        </tr>
+        <tr>
+            <td> Postcode </td>
+            <td> <input type="text" id="postcode" name="postcode"> </td>
+        </tr>
+        <tr>
+            <td> Date of birth </td>
+            <td> <input type="text" id="dob" name="dob"> </td>
+        </tr>
+        <tr>
+            <td>Building Type </td>
+            <td>
+                <select id="building" name="building">
+                    <option value="Apartment" selected="selected">Apartment</option>
+                    <option value="House">House</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Features </td>
+            <td>
+                <input type="checkbox" id="cb1" value="Heating">
+                <label for="cb1">Heating</label>
+                <br/>
+                <input type="checkbox" id="cb2" value="Air Conditioning">
+                <label for="cb2">AirConditioning</label>
+                <br/>
+                <input type="checkbox" id="cb3" value="Pool">
+                <label for="cb3">Pool</label>
+                <br/>
+                <input type="checkbox" id="cb4" value="Sandbox">
+                <label for="cb4">Sandbox</label>
+                <br/>
+                <button type="button" id="select">Select All</button>
+            </td>
+        </tr>
+    </table>
+    <br/>
+    <button type="reset" id="reset">Reset</button>
+    <br/><br/>
+    <textarea id="textarea" rows=10 cols=30></textarea>
+</form>
+    <script type="text/javascript" src = "task4.js"></script>
+</body>
+</html>
